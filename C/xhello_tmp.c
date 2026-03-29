@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <complex.h>
+#include <float.h>
+#include <limits.h>
+#include <string.h>
+
+int main(void) {
+   {
+      int first = 1;
+      printf("%s%s", first ? "" : " ", "hello");
+      first = 0;
+      printf("\n");
+   }
+   return 0;
+}
